@@ -32,7 +32,7 @@ namespace Front.App
 
             try
             {
-                Session["access_token"] = response["access_token"];
+                Session["access_token"] = response["access_token"].ToString().Replace("\"", "").Replace("\\", "");
                 Session["Rol"] = response2["Rol"];
                 Session["Usuario"] = user.Text;
                 Response.Redirect("Transactions.aspx",false);

@@ -118,6 +118,7 @@ namespace Front.App
 
             Tabla.DataSource = lista;
             Tabla.DataBind();
+
         }
 
         /// <summary>
