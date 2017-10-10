@@ -13,4 +13,4 @@ Nota: en caso de no poder correr la base de datos se envía scripts de creación
   - Superintendent
   - Administrator
   todos con la contraseña: Password1
-4. En el web config es necesario configurar el servicdor de base de datos.
+4. En el web.config del proyecto "API" es necesario configurar el servicdor de base de datos.
