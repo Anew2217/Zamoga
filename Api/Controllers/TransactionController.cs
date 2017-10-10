@@ -67,8 +67,7 @@ namespace Api.Controllers
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("getRol")]
-        [Authorize(Roles = "Assistant, Manager, Superintendent, Administrator")]
+        [Route("getRol")]        
         public IHttpActionResult GetRol(Usuario usuario)
         {
             try
